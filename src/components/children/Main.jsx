@@ -5,10 +5,8 @@ class Main extends React.Component {
   render() {
     return (
       <Sub data={{ name: "hello" }} child={<Child />}>
-        <p>1212</p>
-        <p>1212</p>
-        <p>1212</p>
-        <p>1212</p>
+        <p>this is Sub Comp's  children </p>
+        <p>this is Sub Comp's  children </p>
       </Sub>
     );
   }
