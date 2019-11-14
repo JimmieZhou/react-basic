@@ -22,7 +22,7 @@ class Clock extends React.Component {
 
   // 等价于
 
-  handleBtnClick = () => {
+  handleBtnClick = (e) => {
     this.setState(state => ({
       isRun: !state.isRun
     }));

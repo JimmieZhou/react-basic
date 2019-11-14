@@ -4,14 +4,14 @@
  * @Author: jimmiezhou
  * @Date: 2019-11-13 15:52:24
  * @LastEditors: jimmiezhou
- * @LastEditTime: 2019-11-14 13:56:37
+ * @LastEditTime: 2019-11-14 17:38:07
  */
 import React from 'react';
 import Clock from './components/clock/Clock'
 import Main from './components/children/Main'
 import Index from './components/dynamicImport/Index'
 import Route from './components/route/Index'
-import Ctx from './components/context/Index'
+import Ctx from './components/context/App'
 import './App.css';
 
 function App() {
