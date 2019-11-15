@@ -4,7 +4,7 @@
  * @Author: jimmiezhou
  * @Date: 2019-11-13 15:52:24
  * @LastEditors: jimmiezhou
- * @LastEditTime: 2019-11-15 14:09:45
+ * @LastEditTime: 2019-11-15 15:25:12
  */
 import React from 'react';
 import Clock from './components/clock/Clock'
@@ -16,6 +16,7 @@ import Ctx2 from './components/context/App'
 import ForwardRef from './components/forwardRef/App'
 import PPHOC_basic from './components/hoc/ppHOC/App'
 import PPHOC_state from './components/hoc/ppHOC/App2'
+import Hooks from './components/hooks/App'
 import './App.css';
 
 function App() {
@@ -38,6 +39,8 @@ function App() {
       <PPHOC_basic data={123}></PPHOC_basic>
       ----------------------------
       <PPHOC_state data={123}></PPHOC_state>
+      ----------------------------
+      <Hooks></Hooks>
     </div>
   );
 }
