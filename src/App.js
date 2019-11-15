@@ -4,7 +4,7 @@
  * @Author: jimmiezhou
  * @Date: 2019-11-13 15:52:24
  * @LastEditors: jimmiezhou
- * @LastEditTime: 2019-11-15 09:57:09
+ * @LastEditTime: 2019-11-15 14:09:45
  */
 import React from 'react';
 import Clock from './components/clock/Clock'
@@ -13,6 +13,9 @@ import Index from './components/dynamicImport/Index'
 import Route from './components/route/Index'
 import Ctx from './components/context/App'
 import Ctx2 from './components/context/App'
+import ForwardRef from './components/forwardRef/App'
+import PPHOC_basic from './components/hoc/ppHOC/App'
+import PPHOC_state from './components/hoc/ppHOC/App2'
 import './App.css';
 
 function App() {
@@ -29,6 +32,12 @@ function App() {
       <Ctx></Ctx>
       ----------------------------
       <Ctx2></Ctx2>
+      ----------------------------
+      <ForwardRef></ForwardRef>
+      ----------------------------
+      <PPHOC_basic data={123}></PPHOC_basic>
+      ----------------------------
+      <PPHOC_state data={123}></PPHOC_state>
     </div>
   );
 }
